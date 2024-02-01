@@ -1,0 +1,55 @@
+/*
+Theme Name:   Project_6-Planty
+Theme URI:    http://example.com/twenty-fifteen-child/
+Description:  Create chile theme
+Author:       Miyoung SHIN BEGON
+Author URI:   http://example.com
+Template:     Astra
+Version:      1.0.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  Projet_planty
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap");
+/* Import de la font Roboto depuis Google Fonts et on l'applique sur tous les éléments de la page */
+body * {
+  font-family: "Syne", sans-serif;
+}
+/* On applique un gris plus clair sur les paragraphes */
+
+p {
+  color: #000;
+}
+.custom-logo {
+  width: 201px;
+  margin-left: 37px;
+}
+.site-title {
+  display: none;
+}
+.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-34 {
+  background-color: #dc9f96;
+  order: 3!important;
+}
+#menu-item-34 a{
+  color:#fff;
+}
+.ast-primary-header-bar.ast-primary-header.main-header-bar.site-header-focus-item {
+  margin: 0;
+}
+
+.elementor-spacer-inner {
+  display: none;
+}
+
+.ast-container {
+  max-width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.site-identity {
+  margin-left: 37px;
+}
+
