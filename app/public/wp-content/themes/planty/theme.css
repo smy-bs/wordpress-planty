@@ -38,7 +38,7 @@ p {
 .image-titre {
   position: relative;
   top: -110px;
-  left: 45px;
+  left: 25px;
   font-family: Syne !important;
   font-size: 20px;
   font-weight: 800;
@@ -56,7 +56,7 @@ p {
 .image-titre-02 {
   position: relative;
   top: -120px;
-  left: 45px;
+  left: 38px;
   font-family: Syne !important;
   font-size: 20px;
   font-weight: 800;
@@ -65,7 +65,7 @@ p {
 .image-titre-03 {
   position: relative;
   top: -110px;
-  left: 35px;
+  left: 25px;
   font-family: Syne !important;
   font-size: 20px;
   font-weight: 800;
@@ -143,7 +143,50 @@ input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
   border-left: 1px solid #fff;
   height: 447px;
 }
-/* smartphone et tablettes */
+
+/* responsive - modified !!! */
+
+@media (max-width: 921px){
+  .image-titre {
+    position: relative;
+    top: -90px;
+    left: 15px;
+    font-family: Syne !important;
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #fff;
+  }
+  .image-titre-01 {
+    position: relative;
+    top: -100px;
+    left: 10px;
+    font-family: Syne !important;
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #fff;
+  }
+  .image-titre-02 {
+    position: relative;
+    top: -100px;
+    left: 28px;
+    font-family: Syne !important;
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #fff;
+  }
+  .image-titre-03 {
+    position: relative;
+    top: -90px;
+    left: 15px;
+    font-family: Syne !important;
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #fff;
+  }
+
+  }
+
+/* smartphone and tablette */
 @media screen and (max-width: 768px) {
   .col-container {
     flex-direction: column;
@@ -239,4 +282,6 @@ input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
   .wpcf7-form-control.wpcf7-textarea{
    width:90%;
   }
+
+  
 }

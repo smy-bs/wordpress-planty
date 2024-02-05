@@ -38,4 +38,15 @@ function add_admin_link( $items, $args ) {
     return $items;
 }
 
+// add_filter('wp_nav_menu_items', 'add_admin_link', 10, 2);
+// function add_admin_link($items, $args) {
+//     if (is_user_logged_in() && current_user_can('manage_options')) {
+//         $items .= '<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-admin">
+//             <a class="menu-link" href="'. get_admin_url() .'">Admin</a></li>';
+//     }
+//     elseif (!is_user_logged_in()) {
+//         // 사용자가 로그아웃된 상태에서 어드민 메뉴를 표시하지 않음
+//     }
+//     return $items;
+// }
 
